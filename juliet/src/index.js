@@ -4,12 +4,28 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Menu pages/components
+
+// About
+// Interview
+// Newsletter Signup
+// Contact
+// Calendar Mysteries
+// Cinderella, P.I. Mysteries
+// Death in Shining Armor
+// Novel Basics
+
+function About() {
+  return <h2>About</h2>;
+}
+
+export default About;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+
+root.render(<About />);
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
