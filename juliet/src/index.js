@@ -5,15 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Menu pages/components
-
-// About
-// Interview
-// Newsletter Signup
-// Contact
+// Home
+// About > Bio
+// Books >
 // Calendar Mysteries
 // Cinderella, P.I. Mysteries
 // Death in Shining Armor
 // Novel Basics
+
+// Contact
+// New Releases
+// Newsletter Signup
 
 function About() {
   return <h2>About</h2>;
