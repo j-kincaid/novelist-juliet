@@ -11,15 +11,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 
-const title = "Juliet Kincaid, Writer"
-const myTitleId = "main-title"
-const name = "Juliet Kincaid"
-const desc = "Mystery, Historical Fiction and Fantasy Novelist"
-const element = (
-<>
-<h1 id={myTitleId}>{name}, Writer</h1>  
-<p className="main-desc">{desc}</p>
-</>
-) 
+const Header = () => {
+  return (
+      <header>
+        <h1>Calendar Mysteries</h1>
+          <span className='total-items'>Items: 1</span>
+      </header>
+    )
+  }
+
+
 const root = createRoot(document.getElementById('root'));
-root.render(element);
+root.render(<Header />);
